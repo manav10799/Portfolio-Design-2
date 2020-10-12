@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.home{
+    background-color: #5ae8dc;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: 'Sansita Swashed', cursive;
+}
+.profile{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.profile>img{
+    height: 300px;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+.objective>h3{
+    display: inline;
+    position: relative;
+    top:-460px;
+    left: 880px;
+    font-family: 'Sansita Swashed', cursive;
+}
+.objective>p{
+    display: inline-block;
+    position: relative;
+    top: -230px;
+    left: 450px;   
+    text-align: center;
+}
+.nav-item>a{
+    color: black;
+}
+.work{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 50px;
+}
+.expanded-text {
+    width: 100%;
+}
+
+span.longer-name{
+ display:none;
+}
+
+.expanded-text:hover span.short-name{
+ display:none;
+}
+.expanded-text:hover span.longer-name{
+ display:block;
+}
+
+.text {
+  color: black;
+}
+.work-title{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+.new{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.new1{
+    text-align: center;
+    margin-left: -50px;
+    font-family:'Roboto Mono', monospace; 
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
