@@ -77,4 +77,8 @@ span.longer-name{
     margin-left: -50px;
     font-family:'Roboto Mono', monospace; 
 }
+.new3{
+    text-align: center; 
+    font-family:'Roboto Mono', monospace; 
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
